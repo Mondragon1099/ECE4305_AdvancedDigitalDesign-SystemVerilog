@@ -1,0 +1,1 @@
+So the only changes I made in vivado was to make a new core slot (slot 14), basically wrapping I2C core we already had, didn't make any internal changes except changing where serial clock and serial data connect. They connect to the exposed JB pins from the XDC file, now named: cmps2_scl and cmps2_sda.
